@@ -115,9 +115,10 @@ body{
 }
 
 .side-menu{
+    color: aliceblue;
     height: 40%;
     width: 15%;
-    background-color: cornsilk;
+    background: translucent;
     float: left;
     font-size: 14px;
     z-index: 2;
@@ -138,21 +139,31 @@ body{
     color: #4ca;
 }
 .listmenu ul{
+    color: aliceblue;
     list-style-type: none;
     display:none;
     z-index: 10;
     top: 77px;
     
 }
+.listmenu ul li a:hover{
+    color: #4ca;
+}
+.listmenu ul li a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
 .listmenu:hover ul
-{
+{   
     display: block;
     height: 400px;
     margin-left: 15%;
     padding: 0 100px 10px 10px;
     position: fixed;
-    background-color: blanchedalmond;
-    box-shadow: 2px 2px 2px 2px #000;
+    background: translucent;
+    box-shadow: 1px 1px 1px 1px azure;
     
 }
 
@@ -287,6 +298,19 @@ body{
     font-size: 17px;
     padding-bottom: 10px
 }
+
+.column {
+  float: left
+  width: 20%;
+}
+
+
+
+
+
+
+
+
 
 
 
