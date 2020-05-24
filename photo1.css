@@ -1,0 +1,166 @@
+body{
+    background: url(snow.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.mainheader{
+    width: 100%;
+    font-family: oldman;
+    font-size: 22px;
+    text-align: center;
+    color: floralwhite;
+    padding: 8px;
+}
+
+.side-menu{
+    color: aliceblue;
+    margin-top: 9px;
+    height: 40%;
+    width: 15%;
+    background: translucent;
+    float: left;
+    font-size: 14px;
+    z-index: 2;
+}
+.side-menu ul
+{
+    margin-left: 10px;
+}
+.listmenu
+{
+    list-style-type: none;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.listmenu:hover
+{
+    color: #4ca;
+}
+.listmenu ul{
+    color: aliceblue;
+    list-style-type: none;
+    display:none;
+    z-index: 10;
+    top: 77px;
+    
+}
+.listmenu ul li a{
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.listmenu ul li a:hover{
+    color: #4ca;
+}
+.listmenu:hover ul
+{
+    display: block;
+    height: 200px;
+    margin-left: 12%;
+    padding: 0 100px 10px 10px;
+    position: fixed;
+    background: translucent;
+    box-shadow: 1px 1px 1px 1px azure;
+    
+}
+
+.fa-angle-right{
+    margin-top: 4px;
+    margin-right: 8px;
+    float: right;
+}
+
+
+
+
+
+
+
+
+.column {
+  float: left
+  width: 20%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.product-top .prodimg
+{
+    height: 250px;
+    margin-left: 20px;
+    margin-top: 0px;
+}
+
+.product-top .prodimg:hover
+{
+     transform: scale(1.1);
+}
+
+.overlay-right{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 10%;
+    margin-left: 0;
+    width: 70px;
+}
+
+#icons{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    height: 35px;
+    width: 35px;
+    font-size: 20px;
+    padding: 7px;
+    margin-top: 5%;
+    margin-bottom:5%; 
+}
+
+.overlay-right .btn-secondary{
+    background: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+
+.product-top:hover .overlay-right{
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+.product-bottom .fa{
+    color: gold;
+    font-size: 10px;
+    
+}
+
+.product-bottom h3
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: bookman;
+    text-align: center;
+}
+
+.product-bottom h5
+{
+    font-size: 17px;
+    padding-bottom: 10px;
+    text-align: center;
+}
